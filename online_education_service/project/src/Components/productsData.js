@@ -1,0 +1,372 @@
+
+export default [
+    
+
+        {
+    "id":1,
+    "image" :"../Images/productsData/course-img-1.jpg",
+    "certificate":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUP1wydOPDck6B8Wgeuguri9gedByAl1l4kw&usqp=CAU",
+    "course" :"Academic English",
+    "instructor":"Jacke Masito",
+    "categories":"Language",
+    "Rating":"5",
+    "price":"50",
+    "description":"Lorem Ipsn gravida nibh vel velit auctor aliquet.Aenean sollicitudin, Nam nec tellus a odio tincidunt auctor a ornare odio.",
+    "duration":"2 weeks",
+    "lecture":"10",
+    "quizzes" :"3",
+    "percentage":"60",
+    "maxRetake":"3",
+    "certificateDescription":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ut hendrerit odio, id suscipit urna."
+    },
+      
+       {
+    "id":2,
+    "image" :"../Images/productsData/course-img-3.jpg",
+    "certificate":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUP1wydOPDck6B8Wgeuguri9gedByAl1l4kw&usqp=CAU",
+    "course" :"PC Systems",
+    "instructor":"Judith Stevens",
+    "categories":" IT & Software",
+    "Rating":"5",
+    "price":"80",
+    "description":"Lorem Ipsn gravida nibh vel velit auctor aliquet.Aenean sollicitudin, Nam nec tellus a odio tincidunt auctor a ornare odio.",
+    "duration":"3 weeks",
+    "lecture":"13",
+    "quizzes" :"4",
+    "percentage":"60",
+    "maxRetake":"3",
+    "certificateDescription":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ut hendrerit odio, id suscipit urna."
+     },
+    
+        
+    
+        {
+    "id":3,
+    "image" :"../Images/productsData/course-img-26.jpg",
+    "certificate":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUP1wydOPDck6B8Wgeuguri9gedByAl1l4kw&usqp=CAU",
+    "course" :"Web Technology",
+    "instructor":"Judith Stevens",
+    "categories":"IT & Software",
+    "Rating":"5",
+    "price":"50",
+    "description":"Lorem Ipsn gravida nibh vel velit auctor aliquet.Aenean sollicitudin, Nam nec tellus a odio tincidunt auctor a ornare odio.",
+    "duration":"10 weeks",
+    "lecture":"23",
+    "quizzes" :"10",
+    "percentage":"60",
+    "maxRetake":"3",
+    "certificateDescription":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ut hendrerit odio, id suscipit urna."
+    },
+    
+    {
+    "id":4,
+    "image" :"../Images/productsData/course-img-5.jpg",
+    "certificate":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUP1wydOPDck6B8Wgeuguri9gedByAl1l4kw&usqp=CAU",
+    "course" :"IT Foundations",
+    "instructor":"Ana Murphy",
+    "categories":"IT & Software",
+    "Rating":"5",
+    "price":"45",
+    "description":"Lorem Ipsn gravida nibh vel velit auctor aliquet.Aenean sollicitudin, Nam nec tellus a odio tincidunt auctor a ornare odio.",
+    "duration":"12 weeks",
+    "lecture":"40",
+    "quizzes" :"9",
+    "percentage":"60",
+    "maxRetake":"3",
+    "certificateDescription":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ut hendrerit odio, id suscipit urna."
+    },
+    
+    {
+    "id":5,
+    "image" :"https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTMr896oAvgIGI0_Jxy0o7ZL-oyOp-03n3hOrFr0jqDr6EUQyNm",
+    "certificate":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUP1wydOPDck6B8Wgeuguri9gedByAl1l4kw&usqp=CAU",
+    "course" :"HR Menagement",
+    "instructor":"Richard Dune",
+    "categories":"Business",
+    "Rating":"5",
+    "price":"20",
+    "description":"Lorem Ipsn gravida nibh vel velit auctor aliquet.Aenean sollicitudin, Nam nec tellus a odio tincidunt auctor a ornare odio.",
+    "duration":"7 weeks",
+    "lecture":"15",
+    "quizzes" :"4",
+    "percentage":"60",
+    "maxRetake":"3",
+    "certificateDescription":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ut hendrerit odio, id suscipit urna."
+    },
+    
+    {
+    "id":6,
+    "image" :"../Images/productsData/course-img-17.jpg",
+    "certificate":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUP1wydOPDck6B8Wgeuguri9gedByAl1l4kw&usqp=CAU",
+    "course" :"Modeling",
+    "instructor":"Glen Anders",
+    "categories":"Art & Design",
+    "Rating":"5",
+    "price":"20",
+    "description":"Lorem Ipsn gravida nibh vel velit auctor aliquet.Aenean sollicitudin, Nam nec tellus a odio tincidunt auctor a ornare odio.",
+    "duration":"4 weeks",
+    "lecture":"24",
+    "quizzes" :"6",
+    "percentage":"60",
+    "maxRetake":"3",
+    "certificateDescription":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ut hendrerit odio, id suscipit urna."
+    },
+    
+    
+    {
+    "id":7,
+    "image" :"../Images/productsData/course-img-18.jpg",
+    "certificate":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUP1wydOPDck6B8Wgeuguri9gedByAl1l4kw&usqp=CAU",
+    "course" :"Basic Marketing",
+    "instructor":"Richard Dune",
+    "categories":"Business",
+    "Rating":"5",
+    "price":"40",
+    "description":"Lorem Ipsn gravida nibh vel velit auctor aliquet.Aenean sollicitudin, Nam nec tellus a odio tincidunt auctor a ornare odio.",
+    "duration":"6 weeks",
+    "lecture":"21",
+    "quizzes" :"8",
+    "percentage":"60",
+    "maxRetake":"3",
+    "certificateDescription":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ut hendrerit odio, id suscipit urna."
+    },
+    
+    
+    {
+    "id":8,
+    "image" :"../Images/productsData/course-img-14-1.jpg",
+    "certificate":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUP1wydOPDck6B8Wgeuguri9gedByAl1l4kw&usqp=CAU",
+    "course" :"Business English",
+    "instructor":"Jack Stevens",
+    "categories":"Language",
+    "Rating":"5",
+    "price":"20",
+    "description":"Lorem Ipsn gravida nibh vel velit auctor aliquet.Aenean sollicitudin, Nam nec tellus a odio tincidunt auctor a ornare odio.",
+    "duration":"8 weeks",
+    "lecture":"30",
+    "quizzes" :"7",
+    "percentage":"60",
+    "maxRetake":"3",
+    "certificateDescription":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ut hendrerit odio, id suscipit urna."
+    },
+    
+    {
+    "id":9,
+    "image" :"../Images/productsData/course-img-26.jpg",
+    "certificate":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUP1wydOPDck6B8Wgeuguri9gedByAl1l4kw&usqp=CAU",
+    "course" :"Learn Spanish",
+    "instructor":"Laura Rees",
+    "categories":"Language",
+    "Rating":"5",
+    "price":"20",
+    "description":"Lorem Ipsn gravida nibh vel velit auctor aliquet.Aenean sollicitudin, Nam nec tellus a odio tincidunt auctor a ornare odio.",
+    "duration":"9 weeks",
+    "lecture":"20",
+    "quizzes" :"5",
+    "percentage":"60",
+    "maxRetake":"3",
+    "certificateDescription":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ut hendrerit odio, id suscipit urna."
+    },
+    
+    {
+    "id":10,
+    "image" :"../Images/productsData/course-img-24.jpg",
+    "certificate":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUP1wydOPDck6B8Wgeuguri9gedByAl1l4kw&usqp=CAU",
+    "course" :"Web Security",
+    "instructor":"Edy Bowman",
+    "categories":"Programming Languages",
+    "Rating":"5",
+    "price":"50",
+    "description":"Lorem Ipsn gravida nibh vel velit auctor aliquet.Aenean sollicitudin, Nam nec tellus a odio tincidunt auctor a ornare odio.",
+    "duration":"4 weeks",
+    "lecture":"10",
+    "quizzes" :"3",
+    "percentage":"60",
+    "maxRetake":"3",
+    "certificateDescription":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ut hendrerit odio, id suscipit urna."
+    },
+    
+    {
+    "id":11,
+    "image" :"../Images/productsData/course-img-7.jpg",
+    "certificate":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUP1wydOPDck6B8Wgeuguri9gedByAl1l4kw&usqp=CAU",
+    "course" :"Design Principles",
+    "instructor":"Sophy Janer",
+    "categories":"Art & Design",
+    "Rating":"5",
+    "price":"50",
+    "description":"Lorem Ipsn gravida nibh vel velit auctor aliquet.Aenean sollicitudin, Nam nec tellus a odio tincidunt auctor a ornare odio.",
+    "duration":"11 weeks",
+    "lecture":"10",
+    "quizzes" :"3",
+    "percentage":"60",
+    "maxRetake":"3",
+    "certificateDescription":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ut hendrerit odio, id suscipit urna."
+    },
+    
+    {
+    "id":12,
+    "image" :"../Images/productsData/instructor-img-10-1.jpg",
+    "certificate":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUP1wydOPDck6B8Wgeuguri9gedByAl1l4kw&usqp=CAU",
+    "course" :"Digital Leadership",
+    "instructor":"Nicholas Butler",
+    "categories":"Business",
+    "Rating":"5",
+    "price":"50",
+    "description":"Lorem Ipsn gravida nibh vel velit auctor aliquet.Aenean sollicitudin, Nam nec tellus a odio tincidunt auctor a ornare odio.",
+    "duration":"2 weeks",
+    "lecture":"10",
+    "quizzes" :"3",
+    "percentage":"60",
+    "maxRetake":"3",
+    "certificateDescription":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ut hendrerit odio, id suscipit urna."
+    },
+    
+    {
+    "id":13,
+    "image" :"../Images/productsData/course-img-6.jpg",
+    "certificate":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUP1wydOPDck6B8Wgeuguri9gedByAl1l4kw&usqp=CAU",
+    "course" :"Logo Design",
+    "instructor":"Nicholas Butler",
+    "categories":"Art & Design",
+    "Rating":"5",
+    "price":"20",
+    "description":"Lorem Ipsn gravida nibh vel velit auctor aliquet.Aenean sollicitudin, Nam nec tellus a odio tincidunt auctor a ornare odio.",
+    "duration":"21 weeks",
+    "lecture":"100",
+    "quizzes" :"13",
+    "percentage":"60",
+    "maxRetake":"3",
+    "certificateDescription":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ut hendrerit odio, id suscipit urna."
+    },
+    
+    {
+    "id":14,
+    "image" :"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTIlOub4BsMR-_IadJ4wHHrBUMu3ccp3dkHMCue4SxKAzRKFeQP",
+    "certificate":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUP1wydOPDck6B8Wgeuguri9gedByAl1l4kw&usqp=CAU",
+    "course" :"App Developer",
+    "instructor":"Edy Bowman",
+    "categories":"Programming Languages",
+    "Rating":"5",
+    "price":"50",
+    "description":"Lorem Ipsn gravida nibh vel velit auctor aliquet.Aenean sollicitudin, Nam nec tellus a odio tincidunt auctor a ornare odio.",
+    "duration":"5 weeks",
+    "lecture":"14",
+    "quizzes" :"4",
+    "percentage":"60",
+    "maxRetake":"3",
+    "certificateDescription":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ut hendrerit odio, id suscipit urna."
+    },
+    
+    {
+    "id":15,
+    "image" :"../Images/productsData/course-img-16.jpg",
+    "certificate":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUP1wydOPDck6B8Wgeuguri9gedByAl1l4kw&usqp=CAU",
+    "course" :"Web Developer",
+    "instructor":"Edy Bowman",
+    "categories":"Programming Languages",
+    "Rating":"5",
+    "price":"50",
+    "description":"Lorem Ipsn gravida nibh vel velit auctor aliquet.Aenean sollicitudin, Nam nec tellus a odio tincidunt auctor a ornare odio.",
+    "duration":"2 weeks",
+    "lecture":"10",
+    "quizzes" :"3",
+    "percentage":"60",
+    "maxRetake":"3",
+    "certificateDescription":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ut hendrerit odio, id suscipit urna."
+    },
+    
+    {
+    "id":16,
+    "image" :"../Images/productsData/course-img-19.jpg",
+    "certificate":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUP1wydOPDck6B8Wgeuguri9gedByAl1l4kw&usqp=CAU",
+    "course" :"English Grammar",
+    "instructor":"Jill King",
+    "categories":"Language",
+    "Rating":"5",
+    "price":"50",
+    "description":"Lorem Ipsn gravida nibh vel velit auctor aliquet.Aenean sollicitudin, Nam nec tellus a odio tincidunt auctor a ornare odio.",
+    "duration":"10 weeks",
+    "lecture":"30",
+    "quizzes" :"7",
+    "percentage":"60",
+    "maxRetake":"3",
+    "certificateDescription":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ut hendrerit odio, id suscipit urna."
+    },
+    
+    {
+    "id":17,
+    "image" :"../Images/productsData/course-img-20.jpg",
+    "certificate":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUP1wydOPDck6B8Wgeuguri9gedByAl1l4kw&usqp=CAU",
+    "course" :"Vocabulary",
+    "instructor":"Jill King",
+    "categories":"Language",
+    "Rating":"5",
+    "price":"20",
+    "description":"Lorem Ipsn gravida nibh vel velit auctor aliquet.Aenean sollicitudin, Nam nec tellus a odio tincidunt auctor a ornare odio.",
+    "duration":"7 weeks",
+    "lecture":"12",
+    "quizzes" :"4",
+    "percentage":"60",
+    "maxRetake":"3",
+    "certificateDescription":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ut hendrerit odio, id suscipit urna."
+    },
+    
+    {
+    "id":18,
+    "image" :"../Images/productsData/course-img-21.jpg",
+    "certificate":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUP1wydOPDck6B8Wgeuguri9gedByAl1l4kw&usqp=CAU",
+    "course" :"Expository writing",
+    "instructor":"Ana Murphy",
+    "categories":"Language",
+    "Rating":"5",
+    "price":"45",
+    "description":"Lorem Ipsn gravida nibh vel velit auctor aliquet.Aenean sollicitudin, Nam nec tellus a odio tincidunt auctor a ornare odio.",
+    "duration":"2 weeks",
+    "lecture":"10",
+    "quizzes" :"3",
+    "percentage":"60",
+    "maxRetake":"3",
+    "certificateDescription":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ut hendrerit odio, id suscipit urna."
+    },
+    
+    {
+    "id":19,
+    "image" :"../Images/productsData/course-img-22.jpg",
+    "certificate":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUP1wydOPDck6B8Wgeuguri9gedByAl1l4kw&usqp=CAU",
+    "course" :"Communication",
+    "instructor":"JSophy Janer",
+    "categories":"Business",
+    "Rating":"5",
+    "price":"20",
+    "description":"Lorem Ipsn gravida nibh vel velit auctor aliquet.Aenean sollicitudin, Nam nec tellus a odio tincidunt auctor a ornare odio.",
+    "duration":"6 weeks",
+    "lecture":"20",
+    "quizzes" :"5",
+    "percentage":"60",
+    "maxRetake":"3",
+    "certificateDescription":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ut hendrerit odio, id suscipit urna."
+    },
+    
+    {
+    "id":20,
+    "image" :"../Images/productsData/course-img-25.jpg",
+    "certificate":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUP1wydOPDck6B8Wgeuguri9gedByAl1l4kw&usqp=CAU",
+    "course" :"Web Security",
+    "instructor":"Edy Bowman",
+    "categories":"Programming Languages",
+    "Rating":"5",
+    "price":"50",
+    "description":"Lorem Ipsn gravida nibh vel velit auctor aliquet.Aenean sollicitudin, Nam nec tellus a odio tincidunt auctor a ornare odio.",
+    "duration":"5 weeks",
+    "lecture":"8",
+    "quizzes" :"4",
+    "percentage":"60",
+    "maxRetake":"2",
+    "certificateDescription":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ut hendrerit odio, id suscipit urna."
+    }
+    
+    
+
+  ];
+  

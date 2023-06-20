@@ -1,0 +1,262 @@
+
+
+.paddingall{
+    padding: 10px 10px 10px 10px;
+}
+.paddingall1{
+    margin-top: -11px;
+
+}
+.btnLimit{
+    width: fit-content;
+    height: fit-content;
+    background-color: #18dcff;
+    border-color: #18dcff;
+}
+
+.pricetitle{
+    font-weight: 600;
+}
+.pricesubtitle{
+    font-weight: 14px;
+}
+.iconstyle{
+    margin-top: 20px;
+    margin-left: 15px;
+    color: aliceblue;
+}
+
+.iconstyle1{
+    margin-top: 0px;
+    margin-left: 20px;
+    
+}
+.iconstyleblack{
+    margin-top: 20px;
+    margin-left: 20px;
+    color: black;
+}
+.gradient{
+    background: rgb(40,34,70);
+    background: linear-gradient(158deg, rgba(40,34,70,1) 0% , rgba(30,47,141,1) 100%);
+}
+
+.gradientlight{
+    background: rgb(53,138,148);
+    background: linear-gradient(158deg, rgba(51,138,148,1) 0% , rgba(91,180,96,1) 100%);
+}
+
+.bgcolor23{
+    min-height: 100vh;
+    background: #ECEFF1;
+    background: linear-gradient(158deg, rgb(224, 223, 223) 0%, rgba(233,237,254)100%);
+}
+
+.setheight{
+    height: 70px;
+}
+.heightone{
+    height: 150px;
+}
+.cardsmall{
+    width: 50%;
+}
+
+
+@media (max-width:983px)
+{
+    .colwidthcl2{
+        width: 700px;
+        
+    }
+    .settingquery{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+
+@media (max-width:930px){
+    .settingquery{
+        display: flex;
+        flex-direction: column;
+    }
+    .accordheight{
+        height: fit-content;
+        
+    }
+    .cardsmall{
+        width: 400px;
+    }
+    .colwidthcl{
+        width: 700px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .colwidthcl1{
+        width: 700px;
+    }
+    .colwidthcl2{
+        width: 690px;
+        align-items: center;
+    }
+    
+
+}
+
+@media (max-width:765px)
+{
+    .colwidthcl2{
+        width: 520px;
+        
+    }
+}
+
+
+
+
+@media (max-width:630px){
+    .settingquery{
+        display: flex;
+        flex-direction: column;
+    }
+    .accordheight{
+        height: fit-content;
+        width: 500px;
+
+    }
+    .colwidthcl{
+        width: 500px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .colwidthcl1{
+        width: 500px;
+    }
+    .colwidthcl2{
+        width: 430px;
+        
+    }
+   
+}
+
+
+@media (max-width:430px){
+    .settingquery{
+        display: flex;
+        flex-direction: column;
+    }
+    .accordheight{
+        height: fit-content;
+        width: 300px;
+
+    }
+    .colwidthcl{
+        width: 300px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .colwidthcl1{
+        width: 300px;
+    }
+    .colwidthcl2{
+        width: 375px;
+        
+    }
+   
+}
+
+
+
+/* Dark Mode css start here 👇 */
+/* 
+:root {
+    --font-color: #333;
+    /* --background-color: #eee; */
+    /* --link-color: cornflowerblue; */
+  /* } */
+   */
+  [data-theme="dark"] {
+    --font-color: #eee;
+    --background-color: #333;
+    --link-color: lightblue;
+  }
+  
+  body {
+    background-color: var(--background-color);
+    color: var(--font-color);
+  }
+  
+  a {
+    color: var(--link-color);
+  }
+  
+  /* Custom Dark Mode Toggle Element */
+  
+  .toggle-theme-wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  
+  .toggle-theme-wrapper span {
+    font-size: 23px;
+    margin: 0 4px;
+  }
+  
+  .toggle-theme {
+    position: relative;
+    display: inline-block;
+    height: 24px;
+    width: 40px;
+  }
+  
+  .toggle-theme input {
+    display: none;
+  }
+  
+  .slider {
+    background-color: #ccc;
+    position: absolute;
+    cursor: pointer;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    transition: 0.2s;
+  }
+  
+  .slider:before {
+    background-color: #fff;
+    bottom: 4px;
+    content: "";
+    height: 16px;
+    left: 4px;
+    position: absolute;
+    transition: 0.4s;
+    width: 16px;
+  }
+  
+  input:checked + .slider:before {
+    transform: translateX(20px);
+  }
+  
+  input:checked + .slider {
+    background-color: cornflowerblue;
+  }
+  
+  .slider.round {
+    border-radius: 34px;
+  }
+  
+  .slider.round:before {
+    border-radius: 50%;
+  }
+  
+  /* Dark mode css end here  */

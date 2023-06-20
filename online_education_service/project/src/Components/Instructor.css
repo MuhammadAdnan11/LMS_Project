@@ -1,0 +1,88 @@
+
+
+#cardimg{
+    width: 163px;
+    height:163px;
+}
+.formfont{
+    font-size: 12px;
+
+}
+.inst-form-bg{
+    background-color: #fcf9f6;
+}
+.imgplyIcon{
+  margin-top: 21%;
+  margin-left: 43%;
+}
+/* Form button */
+#instformbtn{
+    background-color: #04d2c8;
+    border: none;
+}
+#instformbtn:hover{
+    background: #00b9b0;
+}
+/* second part */
+.inst-sec-heading{
+    color: #04d2c8;
+}
+
+
+/* Card transition */
+.instbox img{
+    transition: 1s;
+    cursor: pointer;
+  }
+.instbox img:hover{
+    transform: scale(1.2);
+    z-index: 2;
+  }
+
+/* Carsoul */
+
+.carasoul-img{
+    margin-left: 45%;
+    
+}
+.bgCarasoul{
+    background-image: linear-gradient(to bottom right, rgb(65 72 90), rgb(81, 70, 92));
+}
+.pic-parag{
+    font-size: 18px;
+    
+}
+.teac-card-bor{
+    border-radius: .6rem;
+    background-color: #fcf9f6;
+}
+
+/* Card teacher */
+#intShadow{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#intShadow:hover {
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+  }
+
+
+  @media(max-width:912px){
+    .instrResponsive{
+        display: flex;
+        flex-direction: column;
+    }
+  }
+
+  @media (max-width:600px)
+  {
+    .instbox{
+    
+     display: flex;
+     flex-direction: column;
+
+    }
+
+  }
+
+
+

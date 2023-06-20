@@ -1,0 +1,50 @@
+/* .imgbg {
+  background-image: url("E:\OES Project\online_education_service\project\public\Images\DashboardImage\dashboard.png");
+  width: 100%;
+  height: 35vh;
+  background-color: #fafafa;
+} */
+#btncol {
+  background-color: #04d2c8;
+  color: white;
+  font-size: small;
+  font-weight: 700;
+  border: none;
+}
+#btncol:hover {
+  background-color: #22e2d9;
+  border: none;
+}
+#regcol a {
+  color: #04d2c8;
+  font-weight: 700;
+}
+.titcenter {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: center;
+  column-gap: 1.6rem;
+}
+.titcenter::before,
+.titcenter::after {
+  content: "";
+  height: 2px;
+  background-color: rgba(158, 180, 180, 0.879);
+  display: block;
+}
+
+#fbcol {
+  background-color: #2965e7;
+  color: white;
+  font-size: small;
+  font-weight: 700;
+  border: none;
+}
+#fbcol:hover {
+  background-color: #2f40f3;
+  border: none;
+}
+
+#netfont {
+  font-size: 17px;
+}

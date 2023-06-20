@@ -1,0 +1,856 @@
+
+
+.iconcolor
+{
+  color: white;
+}
+.iconcolor1:hover{
+  color: #18dcff;
+  cursor: pointer;
+}
+.iconcolor2{
+  color:#64d6f4 ;
+  cursor: pointer;
+  font-size: 30px;
+  
+}
+.colo
+{
+  background-color: white;
+}
+
+.namargin
+{
+  justify-content: space-between;
+  margin-right: 3rem;
+  gap: 1rem;
+}
+
+.btn-col
+{
+  background-color: #00d2d3;
+  width: 130px;
+  
+}
+.size4{
+    font-size: 14px;
+}
+.marginclass{
+    margin-top: 100px;
+}
+
+.btn-col:hover{
+  background-color: #7dd1d1;
+}
+
+
+/* Navbar css 👇 */
+
+body{
+
+    font-family: 'Urbanist', sans-serif;
+    overflow-x: hidden;
+}
+
+a{
+
+    text-decoration: none;
+    color: currentColor;
+}
+
+a:hover{
+
+    color: currentColor;
+}
+
+header{
+
+    width: 100vw;
+    margin-top: 15px;
+    height: 86px;
+    background-color: #fff;
+    box-shadow: 0px 3px 8px rgba(0, 0, 0, 25%);
+    display: flex;
+    align-items: center;
+}
+
+header .container-fluid{
+
+    width: 100%;
+    padding: 0 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+@media(max-width:992px){
+
+    header .container-fluid{
+
+        padding: 0 5%;
+    }
+}
+
+header .navb-logo img{
+
+    width: 200px;
+    height: 86px;
+    margin-left: 6rem;
+}
+
+header .navb-items{
+
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    letter-spacing: 1px;
+}
+
+/* this is for when we hover on menue and drop down appear 👇 */
+header .navb-items :hover .dropdown-menu{
+    display: block;
+}
+
+/* end  */
+
+
+header .item{
+
+    text-align: center;
+    margin-inline: 5%;
+    font-weight: bold;
+    font-size: 12px;
+    letter-spacing: 1px;
+    color: black;
+    padding: 5px 0;
+    transition: all .1s ease;
+    border-bottom: 0px solid #18dcff;
+    border-top: 0px solid #18dcff;
+    cursor: pointer;
+}
+header .item:nth-child(7)
+{
+  font-size: 20px;
+}
+
+header .item:nth-child(8)
+{
+  font-size: 20px;
+}
+header .item:nth-child(9)
+{
+  font-size: 20px;
+}
+
+
+header .item:hover{
+
+    border-bottom: 3px solid #18dcff;
+    border-top: 3px solid #18dcff;
+    color:#64d6f4 ;
+}
+
+header .item-button a{
+
+    background-color: #274d8a;
+    width: 150px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    transition: all .5s ease;
+}
+
+header .item-button a:hover{
+
+    background-color: #18dcff;
+}
+
+header .mobile-toggler{
+
+    font-size: 30px;
+}
+
+/* modal */
+
+.modal-dialog{
+
+    margin: 0;
+    width: 430px;
+}
+
+@media(max-width: 450px){
+
+    .modal-dialog{
+
+        width: 82%;
+    }
+}
+
+.modal-content{
+
+    border-radius: 0;
+    height: 100vh;
+    overflow-y: scroll;
+    background-color: #102447;
+}
+
+.modal-header{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 88%;
+    margin: 0 auto;
+    padding-bottom: 16px;
+    border-bottom: 2px solid #fefefe;
+}
+
+.modal-header img{
+
+    width: 140px;
+    height: 66px;
+    margin-top: 17.5px;
+}
+
+.modal-header .btn-close{
+
+    background: transparent;
+    opacity: 1;
+}
+
+.modal-header i{
+
+    color: #fefefe;
+    font-size: 20px;
+}
+
+.modal-body{
+
+    width: 88%;
+    margin: 0 auto;
+    padding: 75px 0 0 0;
+    flex: unset;
+}
+
+.modal-body .modal-line{
+
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 7px 0;
+    margin-bottom: 50px;
+    cursor: pointer;
+    transition: all .5s ease;
+    color: #274d8a;
+    border-bottom: 1px solid #274d8a;
+}
+
+.modal-body .modal-line:hover{
+
+    color: #fefefe;
+    border-bottom: 1px solid #fefefe;
+}
+
+.modal-line a{
+
+    font-size: 17px;
+    font-weight: 500;
+    letter-spacing: 2.5px;
+    color: #fefefe;
+}
+
+.modal-line i{
+
+    color: currentColor;
+    font-size: 30px;
+    width: 35px;
+    margin-right: 15px;
+    padding: 0 0 3px 3px;
+}
+
+.navb-button{
+
+    width: 60%;
+    height: 47px;
+    background-color: #fefefe;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 10px;
+    font-weight: 500;
+    color: #274d8a;
+    letter-spacing: 1px;
+    transition: all .5s ease;
+}
+
+.navb-button:hover{
+
+    background-color: #274d8a;
+    color: #fefefe;
+}
+
+.mobile-modal-footer{
+
+    width: 87%;
+    margin: 0 auto;
+    padding: 20% 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 25px;
+    color: #274d8a;
+}
+
+.mobile-modal-footer i:hover{
+
+    color: #fefefe;
+}
+
+
+
+.section-1{
+
+    width: 100vw;
+    height: 95vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-1 p{
+
+    font-size: 75px;
+    font-weight: 700;
+    color: #102447;
+    width: 90%;
+    text-align: center;
+}
+
+@media(max-width:767px){
+
+    .section-1 p{
+
+        font-size: 50px;
+        text-align: start;
+        width: 70%;
+        margin: auto;
+    }
+}
+
+.cart1{
+    cursor: pointer;
+}
+
+.cart1 span:nth-child(1){
+    font-size: 1.5rem;
+
+}
+.cart1 span:nth-child(2){
+    padding: 0 3px;
+    background-color: #2bcbba;
+    height: fit-content;
+    font-weight: bold;
+    border-radius: 5px;
+    position: relative;
+    top: -15px;
+}
+
+/* Navbar css end  */
+
+
+
+/* home page or carousel css 👇 */
+@media(max-width:1492px){
+
+    .imgclass{
+
+        height:470px;
+    }
+}
+
+@media(max-width:992px){
+
+    .imgclass{
+
+        height:350px;
+    }
+}
+
+@media(max-width:620px){
+
+    .imgclass{
+
+        height:250px;
+    }
+}
+
+
+
+/* for seaarch bar in home page carousel 👇 */
+@media(max-width:620px){
+
+    .searchbar{
+
+       width:540px;
+       display: flex;
+       flex-direction: column;
+       
+       
+    }
+   .searchbtn{
+    margin-left: 70px;
+   }
+}
+
+
+
+
+
+
+
+/* Counter css started here  */
+
+
+.counter{
+    padding: 5rem 3rem 4rem 3rem;
+    background: #F5FBFF;
+}
+.counter-row{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  
+}
+.counter-column{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    border-right: 1px solid #c7c7c7;
+}
+
+
+
+
+.counter-column:last-child{
+    border-right: none;
+
+}
+
+.counter-column .number{
+    font-weight: 600;
+    font-size: 50px;
+    font-family: "Poppins", sans-serif;
+    color: #18dcff;
+}
+.counter-column span{
+    display: block;
+    font-size: 25px;
+    font-weight: 700;
+    color: rgba(0,0,0,0.7);
+    line-height: 1.2;
+    padding-left: 15px;
+    font-family: "poppins", sans-serif;
+
+}
+
+
+@media(max-width:1024px){
+
+    .counter-row{
+
+    grid-template-columns: 1fr 1fr;
+       
+       
+    }
+    .counter-column{
+        padding: 2rem 0 2rem 0;
+        border: none;
+    }
+   
+}
+
+
+
+@media(max-width:560px){
+
+    .counter{
+
+    padding: 1rem 1rem 2rem 1rem;
+       
+       
+    }
+    .counter-row{
+        grid-template-columns: 1fr;
+    }
+    .counter-column{
+        padding: 2rem 0 2rem 0;
+    }
+   
+  
+  
+}  
+
+
+
+/* counter css end here  */
+
+/* after counter section css start here */
+
+.colo1{
+    color: #18dcff;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.colo2{
+    color: #18dcff;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.widclass{
+    font-weight: 700;
+    color: #4b4b4b;
+
+}
+
+.widclass1{
+    font-weight: 500;
+    color: #4b4b4b;
+
+}
+
+/* main page card or courses css 👇 */
+
+.HoverDiv img {
+    max-width: 100%;
+    text-align: center;
+    -moz-transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.HoverDiv:hover img {
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+
+
+.fa-star {
+    color: #FF6F00;
+    cursor: pointer;
+}
+
+.fa-star-o {
+    color: #FF6F00;
+    cursor: pointer;
+}
+
+
+
+
+/* footer css start here 👇 */
+
+.footer{
+	padding: 60px 0;
+    width: 100%;
+    background: #303952;
+    color: #fff;
+   
+}
+.footer-title{
+	position: relative;
+    color: #fff;
+	font-size: 24px;
+    font-weight: 600;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #4e4e4e;
+}
+.footer-title:after{
+	position: absolute;
+	content: '';
+	left: 0;
+	bottom: 0;
+	width: 30px;
+	height: 4px;
+	background: #64d6f4;
+}
+.footer-links a{
+	padding: 10px 0;
+	border-bottom: 1px solid #404040;
+	color: #fff;
+	display: block;
+	transition: color 0.5s ease-in-out;
+   text-decoration:none;
+}
+.footer-links a:hover{
+	color: #64d6f4;
+}
+.footer-social-links li{
+	display: inline-block;
+}
+.footer-social-links a{
+	width: 40px;
+	height: 40px;
+	font-size: 16px;
+	float: left;
+	margin-right: 10px;
+	padding: 10px;
+	border: 1px solid #404040;
+	border-radius: 50px;
+	text-align: center;
+	color: #fff;
+	line-height: 1;
+	-webkit-transition: background 0.3s ease-in-out;
+	-moz-transition: background 0.3s ease-in-out;
+	transition: background 0.3s ease-in-out;
+  background:#5915ac;
+}
+.footer-social-links a:hover{
+	background: #64d6f4;
+}
+/* g. Footer bottom section */
+.footer-bottom{
+	width: 100%;
+	padding: 25px 0;
+	text-align: center;
+	color: #fff;
+	background: #303952;
+}
+
+/* footer css end here  */
+
+
+
+
+/* after home page testimonial, other section start here 👇 */
+
+
+
+/*Contact sectiom*/
+
+.content-header{
+    font-family: 'Oleo Script', cursive;
+    color:#fcc500;
+    font-size: 45px;
+  }
+  
+  .section-content{
+    text-align: center; 
+  
+  }
+  #contact{
+      
+      font-family: 'Teko', sans-serif;
+    padding-top: 60px;
+    width: 100%;
+    width: 100vw;
+    height: 550px;
+    margin-top: 100px;
+    
+    background: #00c6ff; 
+    background: -webkit-linear-gradient(left, #0072ff, #00c6ff); 
+    background: linear-gradient(to left, #0072ff , #00c6ff); 
+      color : #fff;    
+  }
+  .contact-section{
+    padding-top: 40px;
+  }
+  .contact-section .col-md-6{
+    width: 50%;
+  }
+  
+  .form-line{
+    border-right: 1px solid #B29999;
+  }
+  
+  .form-group{
+    margin-top: 10px;
+  }
+  label{
+    font-size: 1.3em;
+    line-height: 1em;
+    font-weight: normal;
+  }
+  .form-control{
+    font-size: 1.3em;
+    color: #080808;
+  }
+  textarea.form-control {
+      height: 135px;
+     margin-top: px;
+  }
+
+  .submit{
+    font-size: 1.1em;
+    float: right;
+    width: 150px;
+    background-color: transparent;
+    color: white;
+  
+  } 
+
+
+  
+/* after home page testimonial, other section end here  */
+  
+    /* image animation css 👇 */
+
+    .animateImageCss
+    {
+        animation: animate 3s linear infinite;
+    }
+
+    @keyframes animate{
+           0%{
+            filter: hue-rotate(0deg);
+           }
+    }
+
+    @keyframes animate{
+        100%{
+         filter: hue-rotate(360deg);
+         
+        }
+ }
+
+ 
+
+  @keyframes animate {
+    from {
+      transform: translateY(0%);
+    }
+  
+    to {
+      transform: translateY(5%);
+    }
+  }
+
+
+
+/* image animation css end here  */
+
+/* homecard1 css start here 👇 */
+.datebtn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #555;
+    color: white;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+ 
+
+
+
+
+
+
+  /* ScrollButton css start here 👇 */
+
+  
+
+
+
+.scrollbtn
+{
+position: Fixed;
+left: 95%;
+bottom: 60px;
+height: 20px;
+font-size: 3rem;
+z-index:1;
+cursor: pointer;
+color: rgb(51, 51, 233);
+
+}
+
+@media (max-width:600px)
+{
+    .scrollbtn{
+        left: 85%;
+    }
+}
+
+
+
+
+
+
+/* payment  */
+
+
+.FormGroup {
+	margin: 0 15px 20px;
+	padding: 0;
+    height: 10rem;
+	border-style: none;
+	background-color: #7795f8;
+	will-change: opacity, transform;
+	box-shadow: 0 6px 9px rgba(50, 50, 93, 0.06), 0 2px 5px rgba(0, 0, 0, 0.08), inset 0 1px 0 #829fff;
+	border-radius: 4px;
+}
+
+
+.FormRow {
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-align: center;
+	align-items: center;
+	margin-left: 15px;
+	border-top: 1px solid #819efc;
+}
+
+.StripeElement--webkit-autofill {
+	background: transparent !important;
+}
+
+.StripeElement {
+	width: 100%;
+	padding: 11px 15px 11px 0;
+}
+
+
+.paybtn {
+	display: block;
+	font-size: 16px;
+	width: calc(100% - 30px);
+	height: 40px;
+	margin: 40px 15px 0;
+	background-color: #f6a4eb;
+	box-shadow: 0 6px 9px rgba(50, 50, 93, 0.06), 0 2px 5px rgba(0, 0, 0, 0.08), inset 0 1px 0 #ffb9f6;
+	border-radius: 4px;
+	color: #fff;
+	font-weight: 600;
+	cursor: pointer;
+	transition: all 100ms ease-in-out;
+	will-change: transform, background-color, box-shadow;
+	border: none;
+}
+
+.paybtn:active {
+	background-color: #d782d9;
+	box-shadow: 0 6px 9px rgba(50, 50, 93, 0.06), 0 2px 5px rgba(0, 0, 0, 0.08), inset 0 1px 0 #e298d8;
+	transform: scale(0.99);
+}
+
+.text-green{
+    color: rgb(54, 228, 54);
+}
